@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Web development task 2</title>
+<style>
+
+    table{
+        border: 1px Black solid;
+        border-collapse: collapse;
+    }
+
+    th,td{ 
+        border: 1px Black solid;
+        
+    }
+
+    h1,h2,h3{
+        color:chocolate;
+        text-align: center;
+    }
+
+    form{
+        color: blue;
+        background-color:bisque;
+        text-align: center;
+    }
+
+    table{
+        background-color: blanchedalmond;
+        margin: 0 auto;
+
+    }
+    
+</style>
+</head>
+
+<body>
+
+<div>
+    
+    <h2 style="background-color: blue;">University Admission Form </h2>
+    <form action="" method="get">
+
+    <h3>Personal Information</h3>
+    
+    <label>Name</label>
+    <input type = "text" name="Name" id = "Name" required = "True"/> <br> </br>
+    
+    <label>Password</label>
+    <input type = "password" name="password" id = "password" placeholder="Enter your password" required="True"/>
+    <br><br />
+    
+    <label>Date of Birth</label>
+    <input type = "date" name="date" id = "date"/>
+    <br><br />
+    
+    <label>Gender: </label>
+    
+    <input type = "radio" name="gender" id = "Male" value = "Male"/>Male
+    <input type = "radio" name="gender" id = "Female" value = "Female"/>Female
+    
+    <br><br />
+    
+    <h3>Contact Information</h3>
+    
+    <label>Email</label>
+    <input type = "email" name="email" id = "email" required="True"/> <br> <br />
+    
+    <label>Phone number</label>
+    <input type = "tel" name="number" id = "number"/>
+    <br><br />
+    
+    <label>City</label>
+    <input type = "text" name="City" id = "City"/>
+    <br><br />
+    
+    <label>Address</label>
+    <input type = "text" name="user_address" id = "address"/>
+    <br><br />
+    
+    <h3>Academic Information</h3>
+    
+    <label>Previous marks</label>
+    <input type = "number" name="marks" id = "marks"/> <br> <br />
+    
+    <label>Prefered Program</label>
+    <input type = "text" name="program" id = "program"/>
+    <br><br />
+    
+    <h3>Interest/skills</h3>
+
+    <label>Interest/Skills</label>
+    <input type = "checkbox" name = "programs/skills" id = "programs/skills" value="AI/ML"/>AI/ML
+    
+    <input type = "checkbox" name = "programs/skills" id = "programs/skills" value="Web development"/>Web development
+    
+    <input type = "checkbox" name = "programs/skills" id = "programs/skills" value="Data science"/>Data science
+    
+    <h3>Profile picture</h3>
+    <label>Profile picture</label>
+    
+    <input type = "file" name = "profilepic" id = "profilepic"/> <br></br>
+    
+    <h3>Additional information</h3>
+    <textarea Name = "description" id = "description" cols = "30" rows = "6" placeholder="Why you want to join this university"></textarea>
+    <br></br>
+
+    <button type = "submit" name = "submit" id="Submit">Submit</button>
+    <button type = "reset" name = "reset" id="reset">Reset</button>
+
+    </form>
+
+</div>
+<div>
+    <h2 style="text-align: center;">Student table</h2>
+
+    <table style = "border: 1px Black solid;">
+    <thead>
+        <b>
+            <th>First name </th>
+            <th>Last name </th>
+            <th>Reg no </th>
+            <th>Department </th>
+            <th>Email </th>
+        </b> 
+    </thead>
+
+        <tbody>
+                <tr>
+                    <td>Jawad</td>
+                    <td>khan</td>
+                    <td>22MDBCS332</td>
+                    <td>Computer science</td>
+                    <td>jawad@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Ahmad</td>
+                    <td>Ali</td>
+                    <td>25MDBCS362</td>
+                    <td>Computer science</td>
+                    <td>ahmed@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Akif</td>
+                    <td>khan</td>
+                    <td>23MDBCS400</td>
+                    <td>Computer science</td>
+                    <td>akif12@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Sayed</td>
+                    <td>Jamal</td>
+                    <td>22MDBCS532</td>
+                    <td>Computer science</td>
+                    <td>sj43@gmail.com</td>
+                </tr>
+
+                <tr>
+                    <td>Fawad</td>
+                    <td>Alam</td>
+                    <td>24MDBCS589</td>
+                    <td>Computer science</td>
+                    <td>fawad@gmail.com</td>
+                </tr>
+        </tbody>
+
+    </table>
+</div>
+
+<div>
+<h2>Video Embedding</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zVr5KjThiF0?si=dWCbzH0KHjFqkpjQ&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div>
+
+<h2>Complete code</h2>
+
+<code>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;title&gt; Web development task 2&lt;/title&gt;
+&lt;style&gt;
+
+    table{
+        border: 1px Black solid;
+        border-collapse: collapse;
+    }
+
+    th,td{ 
+        border: 1px Black solid;
+        
+    }
+
+    h1,h2,h3{
+        color:chocolate;
+        text-align: center;
+    }
+
+    form{
+        color: blue;
+        background-color:bisque;
+        text-align: center;
+    }
+
+    table{
+        background-color: blanchedalmond;
+        margin: 0 auto;
+
+    }
+    
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;div&gt;
+    
+    &lt;h2 style=&quot;background-color: blue;&quot;&gt;University Admission Form &lt;/h2&gt;
+    &lt;form action=&quot;&quot; method=&quot;get&quot;&gt;
+
+    &lt;h3&gt;Personal Information&lt;/h3&gt;
+    
+    &lt;label&gt;Name&lt;/label&gt;
+    &lt;input type = &quot;text&quot; name=&quot;Name&quot; id = &quot;Name&quot; required = &quot;True&quot;/&gt; &lt;br&gt; &lt;/br&gt;
+    
+    &lt;label&gt;Password&lt;/label&gt;
+    &lt;input type = &quot;password&quot; name=&quot;password&quot; id = &quot;password&quot; placeholder=&quot;Enter your password&quot; required=&quot;True&quot;/&gt;
+    &lt;br&gt;&lt;br /&gt;
+    
+    &lt;label&gt;Date of Birth&lt;/label&gt;
+    &lt;input type = &quot;date&quot; name=&quot;date&quot; id = &quot;date&quot;/&gt;
+    &lt;br&gt;&lt;br /&gt;
+    
+    &lt;label&gt;Gender: &lt;/label&gt;
+    
+    &lt;input type = &quot;radio&quot; name=&quot;gender&quot; id = &quot;Male&quot; value = &quot;Male&quot;/&gt;Male
+    &lt;input type = &quot;radio&quot; name=&quot;gender&quot; id = &quot;Female&quot; value = &quot;Female&quot;/&gt;Female
+    
+    &lt;br&gt;&lt;br /&gt;
+    
+    &lt;h3&gt;Contact Information&lt;/h3&gt;
+    
+    &lt;label&gt;Email&lt;/label&gt;
+    &lt;input type = &quot;email&quot; name=&quot;email&quot; id = &quot;email&quot; required=&quot;True&quot;/&gt; &lt;br&gt; &lt;br /&gt;
+    
+    &lt;label&gt;Phone number&lt;/label&gt;
+    &lt;input type = &quot;tel&quot; name=&quot;number&quot; id = &quot;number&quot;/&gt;
+    &lt;br&gt;&lt;br /&gt;
+    
+    &lt;label&gt;City&lt;/label&gt;
+    &lt;input type = &quot;text&quot; name=&quot;City&quot; id = &quot;City&quot;/&gt;
+    &lt;br&gt;&lt;br /&gt;
+    
+    &lt;label&gt;Address&lt;/label&gt;
+    &lt;input type = &quot;text&quot; name=&quot;user_address&quot; id = &quot;address&quot;/&gt;
+    &lt;br&gt;&lt;br /&gt;
+    
+    &lt;h3&gt;Academic Information&lt;/h3&gt;
+    
+    &lt;label&gt;Previous marks&lt;/label&gt;
+    &lt;input type = &quot;number&quot; name=&quot;marks&quot; id = &quot;marks&quot;/&gt; &lt;br&gt; &lt;br /&gt;
+    
+    &lt;label&gt;Prefered Program&lt;/label&gt;
+    &lt;input type = &quot;text&quot; name=&quot;program&quot; id = &quot;program&quot;/&gt;
+    &lt;br&gt;&lt;br /&gt;
+    
+    &lt;h3&gt;Interest/skills&lt;/h3&gt;
+
+    &lt;label&gt;Interest/Skills&lt;/label&gt;
+    &lt;input type = &quot;checkbox&quot; name = &quot;programs/skills&quot; id = &quot;programs/skills&quot; value=&quot;AI/ML&quot;/&gt;AI/ML
+    
+    &lt;input type = &quot;checkbox&quot; name = &quot;programs/skills&quot; id = &quot;programs/skills&quot; value=&quot;Web development&quot;/&gt;Web development
+    
+    &lt;input type = &quot;checkbox&quot; name = &quot;programs/skills&quot; id = &quot;programs/skills&quot; value=&quot;Data science&quot;/&gt;Data science
+    
+    &lt;h3&gt;Profile picture&lt;/h3&gt;
+    &lt;label&gt;Profile picture&lt;/label&gt;
+    
+    &lt;input type = &quot;file&quot; name = &quot;profilepic&quot; id = &quot;profilepic&quot;/&gt; &lt;br&gt;&lt;/br&gt;
+    
+    &lt;h3&gt;Additional information&lt;/h3&gt;
+    &lt;textarea Name = &quot;description&quot; id = &quot;description&quot; cols = &quot;30&quot; rows = &quot;6&quot; placeholder=&quot;Why you want to join this university&quot;&gt;&lt;/textarea&gt;
+    &lt;br&gt;&lt;/br&gt;
+
+    &lt;button type = &quot;submit&quot; name = &quot;submit&quot; id=&quot;Submit&quot;&gt;Submit&lt;/button&gt;
+    &lt;button type = &quot;reset&quot; name = &quot;reset&quot; id=&quot;reset&quot;&gt;Reset&lt;/button&gt;
+
+    &lt;/form&gt;
+
+&lt;/div&gt;
+&lt;div&gt;
+    &lt;h2 style=&quot;text-align: center;&quot;&gt;Student table&lt;/h2&gt;
+
+    &lt;table style = &quot;border: 1px Black solid;&quot;&gt;
+    &lt;thead&gt;
+        &lt;b&gt;
+            &lt;th&gt;First name &lt;/th&gt;
+            &lt;th&gt;Last name &lt;/th&gt;
+            &lt;th&gt;Reg no &lt;/th&gt;
+            &lt;th&gt;Department &lt;/th&gt;
+            &lt;th&gt;Email &lt;/th&gt;
+        &lt;/b&gt; 
+    &lt;/thead&gt;
+
+        &lt;tbody&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Jawad&lt;/td&gt;
+                    &lt;td&gt;khan&lt;/td&gt;
+                    &lt;td&gt;22MDBCS332&lt;/td&gt;
+                    &lt;td&gt;Computer science&lt;/td&gt;
+                    &lt;td&gt;jawad@gmail.com&lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td&gt;Ahmad&lt;/td&gt;
+                    &lt;td&gt;Ali&lt;/td&gt;
+                    &lt;td&gt;25MDBCS362&lt;/td&gt;
+                    &lt;td&gt;Computer science&lt;/td&gt;
+                    &lt;td&gt;ahmed@gmail.com&lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td&gt;Akif&lt;/td&gt;
+                    &lt;td&gt;khan&lt;/td&gt;
+                    &lt;td&gt;23MDBCS400&lt;/td&gt;
+                    &lt;td&gt;Computer science&lt;/td&gt;
+                    &lt;td&gt;akif12@gmail.com&lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td&gt;Sayed&lt;/td&gt;
+                    &lt;td&gt;Jamal&lt;/td&gt;
+                    &lt;td&gt;22MDBCS532&lt;/td&gt;
+                    &lt;td&gt;Computer science&lt;/td&gt;
+                    &lt;td&gt;sj43@gmail.com&lt;/td&gt;
+                &lt;/tr&gt;
+
+                &lt;tr&gt;
+                    &lt;td&gt;Fawad&lt;/td&gt;
+                    &lt;td&gt;Alam&lt;/td&gt;
+                    &lt;td&gt;24MDBCS589&lt;/td&gt;
+                    &lt;td&gt;Computer science&lt;/td&gt;
+                    &lt;td&gt;fawad@gmail.com&lt;/td&gt;
+                &lt;/tr&gt;
+        &lt;/tbody&gt;
+
+    &lt;/table&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+&lt;h2&gt;Video Embedding&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zVr5KjThiF0?si=dWCbzH0KHjFqkpjQ&amp;amp;start=5&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;/body&gt;
+
+
+
+&lt;/html&gt;
+        
+    </pre>
+
+</code>
+</div>
+
+</body>
+
+
+
+</html>
