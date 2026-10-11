@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UET Mardan Student Activities Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .hero {
+            background-color: #e8f3ec;
+        }
+
+        .card-img-top {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #1a297b;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark text-bg-success sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">UET Mardan Portal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#registration">Registration</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>UET Mardan Student Activities Portal</h1>
+                    <p class="lead">
+                        Find upcoming events, check the schedule and register for the activities you like.
+                    </p>
+                    <a href="#events" class="btn btn-success">View Events</a>
+                    <a href="#registration" class="btn btn-outline-success">Register Now</a>
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <img src="UETM pic.jpg" class="img-fluid rounded" alt="Students">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container text-center">
+            <h2>About</h2>
+            <p>
+                This portal is for the students of UET Mardan. It shows all the sports, technical and
+                cultural events in one place so students can easily see what is happening and join
+                the events they are interested in.
+            </p>
+        </div>
+    </section>
+
+    <section id="events" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Events</h2>
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="WEB-Ultra-Hackathon.png" class="card-img-top" alt="Hackathon">
+                        <div class="card-body">
+                            <h5 class="card-title">Code Sprint Hackathon</h5>
+                            <p class="card-text">A 24-hour coding contest where teams build an app.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="Cricket tournment.jfif" class="card-img-top" alt="Cricket">
+                        <div class="card-body">
+                            <h5 class="card-title">Cricket Tournament</h5>
+                            <p class="card-text">Departments play against each other on the university ground.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="career siminar.jfif" class="card-img-top" alt="Seminar">
+                        <div class="card-body">
+                            <h5 class="card-title">Career Seminar</h5>
+                            <p class="card-text">Guest speakers give advice about jobs and internships.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <img src="culture day.jpg" class="card-img-top" alt="Cultural Day">
+                        <div class="card-body">
+                            <h5 class="card-title">Cultural Day</h5>
+                            <p class="card-text">Music, food stalls and performances from our local culture.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="schedule">
+        <div class="container">
+            <h2 class="text-center mb-4">Event Schedule</h2>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="table-success">
+                        <tr>
+                            <th>Event Name</th>
+                            <th>Date</th>
+                            <th>Time</th>
+                            <th>Venue</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Code Sprint Hackathon</td>
+                            <td>15 November 2026</td>
+                            <td>9:00 AM</td>
+                            <td>Computer Lab</td>
+                        </tr>
+                        <tr>
+                            <td>Cricket Tournament</td>
+                            <td>20 November 2026</td>
+                            <td>10:00 AM</td>
+                            <td>Cricket Ground</td>
+                        </tr>
+                        <tr>
+                            <td>Career Seminar</td>
+                            <td>25 November 2026</td>
+                            <td>11:30 AM</td>
+                            <td>Siminar hall</td>
+                        </tr>
+                        <tr>
+                            <td>Cultural Day</td>
+                            <td>2 December 2026</td>
+                            <td>1:00 PM</td>
+                            <td>Cricket ground</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="registration" class="bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Student Event Registration</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <form>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="department" class="form-label">Department</label>
+                            <select class="form-select" id="department">
+                                <option selected>Select department</option>
+                                <option>Computer Systems Engineering</option>
+                                <option>Electrical Engineering</option>
+                                <option>Civil Engineering</option>
+                                <option>Mechanical Engineering</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="event" class="form-label">Select Event</label>
+                            <select class="form-select" id="event">
+                                <option selected>Select event</option>
+                                <option>Code Sprint Hackathon</option>
+                                <option>Cricket Tournament</option>
+                                <option>Career Seminar</option>
+                                <option>Cultural Day</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Gender</label><br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="male">
+                                <label class="form-check-label" for="male">Male</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="gender" id="female">
+                                <label class="form-check-label" for="female">Female</label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Write your message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="text-center">
+        <div class="container">
+            <h5>Contact</h5>
+            <p class="mb-1">UET Mardan, Khyber Pakhtunkhwa</p>
+            <p class="mb-1">Email: activities@uetmardan.edu.pk</p>
+            <small>&copy; 2026 UET Mardan Student Activities Portal</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<pre>
+<code>
+    &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;title&gt;UET Mardan Student Activities Portal&lt;/title&gt;
+    &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&gt;
+
+    &lt;style&gt;
+        html {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .hero {
+            background-color: #e8f3ec;
+        }
+
+        .card-img-top {
+            height: 180px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #1a297b;
+            color: white;
+            padding: 20px 0;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;nav class=&quot;navbar navbar-expand-lg navbar-dark text-bg-success sticky-top&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;a class=&quot;navbar-brand&quot; href=&quot;#home&quot;&gt;UET Mardan Portal&lt;/a&gt;
+            &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#menu&quot;&gt;
+                &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;
+            &lt;/button&gt;
+            &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;menu&quot;&gt;
+                &lt;ul class=&quot;navbar-nav ms-auto&quot;&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#home&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#about&quot;&gt;About&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#events&quot;&gt;Events&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#schedule&quot;&gt;Schedule&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#registration&quot;&gt;Registration&lt;/a&gt;&lt;/li&gt;
+                    &lt;li class=&quot;nav-item&quot;&gt;&lt;a class=&quot;nav-link&quot; href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/nav&gt;
+
+    &lt;section id=&quot;home&quot; class=&quot;hero&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;row align-items-center&quot;&gt;
+                &lt;div class=&quot;col-md-6&quot;&gt;
+                    &lt;h1&gt;UET Mardan Student Activities Portal&lt;/h1&gt;
+                    &lt;p class=&quot;lead&quot;&gt;
+                        Find upcoming events, check the schedule and register for the activities you like.
+                    &lt;/p&gt;
+                    &lt;a href=&quot;#events&quot; class=&quot;btn btn-success&quot;&gt;View Events&lt;/a&gt;
+                    &lt;a href=&quot;#registration&quot; class=&quot;btn btn-outline-success&quot;&gt;Register Now&lt;/a&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;col-md-6 mt-4 mt-md-0&quot;&gt;
+                    &lt;img src=&quot;UETM pic.jpg&quot; class=&quot;img-fluid rounded&quot; alt=&quot;Students&quot;&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section id=&quot;about&quot;&gt;
+        &lt;div class=&quot;container text-center&quot;&gt;
+            &lt;h2&gt;About&lt;/h2&gt;
+            &lt;p&gt;
+                This portal is for the students of UET Mardan. It shows all the sports, technical and
+                cultural events in one place so students can easily see what is happening and join
+                the events they are interested in.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section id=&quot;events&quot; class=&quot;bg-light&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;text-center mb-4&quot;&gt;Events&lt;/h2&gt;
+            &lt;div class=&quot;row&quot;&gt;
+
+                &lt;div class=&quot;col-12 col-md-6 col-lg-3 mb-4&quot;&gt;
+                    &lt;div class=&quot;card h-100&quot;&gt;
+                        &lt;img src=&quot;WEB-Ultra-Hackathon.png&quot; class=&quot;card-img-top&quot; alt=&quot;Hackathon&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;h5 class=&quot;card-title&quot;&gt;Code Sprint Hackathon&lt;/h5&gt;
+                            &lt;p class=&quot;card-text&quot;&gt;A 24-hour coding contest where teams build an app.&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;col-12 col-md-6 col-lg-3 mb-4&quot;&gt;
+                    &lt;div class=&quot;card h-100&quot;&gt;
+                        &lt;img src=&quot;Cricket tournment.jfif&quot; class=&quot;card-img-top&quot; alt=&quot;Cricket&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;h5 class=&quot;card-title&quot;&gt;Cricket Tournament&lt;/h5&gt;
+                            &lt;p class=&quot;card-text&quot;&gt;Departments play against each other on the university ground.&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;col-12 col-md-6 col-lg-3 mb-4&quot;&gt;
+                    &lt;div class=&quot;card h-100&quot;&gt;
+                        &lt;img src=&quot;career siminar.jfif&quot; class=&quot;card-img-top&quot; alt=&quot;Seminar&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;h5 class=&quot;card-title&quot;&gt;Career Seminar&lt;/h5&gt;
+                            &lt;p class=&quot;card-text&quot;&gt;Guest speakers give advice about jobs and internships.&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+                &lt;div class=&quot;col-12 col-md-6 col-lg-3 mb-4&quot;&gt;
+                    &lt;div class=&quot;card h-100&quot;&gt;
+                        &lt;img src=&quot;culture day.jpg&quot; class=&quot;card-img-top&quot; alt=&quot;Cultural Day&quot;&gt;
+                        &lt;div class=&quot;card-body&quot;&gt;
+                            &lt;h5 class=&quot;card-title&quot;&gt;Cultural Day&lt;/h5&gt;
+                            &lt;p class=&quot;card-text&quot;&gt;Music, food stalls and performances from our local culture.&lt;/p&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section id=&quot;schedule&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;text-center mb-4&quot;&gt;Event Schedule&lt;/h2&gt;
+            &lt;div class=&quot;table-responsive&quot;&gt;
+                &lt;table class=&quot;table table-bordered table-striped&quot;&gt;
+                    &lt;thead class=&quot;table-success&quot;&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Event Name&lt;/th&gt;
+                            &lt;th&gt;Date&lt;/th&gt;
+                            &lt;th&gt;Time&lt;/th&gt;
+                            &lt;th&gt;Venue&lt;/th&gt;
+                        &lt;/tr&gt;
+                    &lt;/thead&gt;
+                    &lt;tbody&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Code Sprint Hackathon&lt;/td&gt;
+                            &lt;td&gt;15 November 2026&lt;/td&gt;
+                            &lt;td&gt;9:00 AM&lt;/td&gt;
+                            &lt;td&gt;Computer Lab&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Cricket Tournament&lt;/td&gt;
+                            &lt;td&gt;20 November 2026&lt;/td&gt;
+                            &lt;td&gt;10:00 AM&lt;/td&gt;
+                            &lt;td&gt;Cricket Ground&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Career Seminar&lt;/td&gt;
+                            &lt;td&gt;25 November 2026&lt;/td&gt;
+                            &lt;td&gt;11:30 AM&lt;/td&gt;
+                            &lt;td&gt;Siminar hall&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Cultural Day&lt;/td&gt;
+                            &lt;td&gt;2 December 2026&lt;/td&gt;
+                            &lt;td&gt;1:00 PM&lt;/td&gt;
+                            &lt;td&gt;Cricket ground&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/tbody&gt;
+                &lt;/table&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section id=&quot;registration&quot; class=&quot;bg-light&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h2 class=&quot;text-center mb-4&quot;&gt;Student Event Registration&lt;/h2&gt;
+            &lt;div class=&quot;row justify-content-center&quot;&gt;
+                &lt;div class=&quot;col-md-8 col-lg-6&quot;&gt;
+                    &lt;form&gt;
+
+                        &lt;div class=&quot;mb-3&quot;&gt;
+                            &lt;label for=&quot;name&quot; class=&quot;form-label&quot;&gt;Full Name&lt;/label&gt;
+                            &lt;input type=&quot;text&quot; class=&quot;form-control&quot; id=&quot;name&quot; placeholder=&quot;Enter your full name&quot;&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;mb-3&quot;&gt;
+                            &lt;label for=&quot;email&quot; class=&quot;form-label&quot;&gt;Email&lt;/label&gt;
+                            &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;email&quot; placeholder=&quot;Enter your email&quot;&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;mb-3&quot;&gt;
+                            &lt;label for=&quot;department&quot; class=&quot;form-label&quot;&gt;Department&lt;/label&gt;
+                            &lt;select class=&quot;form-select&quot; id=&quot;department&quot;&gt;
+                                &lt;option selected&gt;Select department&lt;/option&gt;
+                                &lt;option&gt;Computer Systems Engineering&lt;/option&gt;
+                                &lt;option&gt;Electrical Engineering&lt;/option&gt;
+                                &lt;option&gt;Civil Engineering&lt;/option&gt;
+                                &lt;option&gt;Mechanical Engineering&lt;/option&gt;
+                            &lt;/select&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;mb-3&quot;&gt;
+                            &lt;label for=&quot;event&quot; class=&quot;form-label&quot;&gt;Select Event&lt;/label&gt;
+                            &lt;select class=&quot;form-select&quot; id=&quot;event&quot;&gt;
+                                &lt;option selected&gt;Select event&lt;/option&gt;
+                                &lt;option&gt;Code Sprint Hackathon&lt;/option&gt;
+                                &lt;option&gt;Cricket Tournament&lt;/option&gt;
+                                &lt;option&gt;Career Seminar&lt;/option&gt;
+                                &lt;option&gt;Cultural Day&lt;/option&gt;
+                            &lt;/select&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;mb-3&quot;&gt;
+                            &lt;label class=&quot;form-label&quot;&gt;Gender&lt;/label&gt;&lt;br&gt;
+                            &lt;div class=&quot;form-check form-check-inline&quot;&gt;
+                                &lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;male&quot;&gt;
+                                &lt;label class=&quot;form-check-label&quot; for=&quot;male&quot;&gt;Male&lt;/label&gt;
+                            &lt;/div&gt;
+                            &lt;div class=&quot;form-check form-check-inline&quot;&gt;
+                                &lt;input class=&quot;form-check-input&quot; type=&quot;radio&quot; name=&quot;gender&quot; id=&quot;female&quot;&gt;
+                                &lt;label class=&quot;form-check-label&quot; for=&quot;female&quot;&gt;Female&lt;/label&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class=&quot;mb-3&quot;&gt;
+                            &lt;label for=&quot;message&quot; class=&quot;form-label&quot;&gt;Message&lt;/label&gt;
+                            &lt;textarea class=&quot;form-control&quot; id=&quot;message&quot; rows=&quot;4&quot;
+                                placeholder=&quot;Write your message&quot;&gt;&lt;/textarea&gt;
+                        &lt;/div&gt;
+
+                        &lt;button type=&quot;submit&quot; class=&quot;btn btn-success&quot;&gt;Submit&lt;/button&gt;
+
+                    &lt;/form&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;footer id=&quot;contact&quot; class=&quot;text-center&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;h5&gt;Contact&lt;/h5&gt;
+            &lt;p class=&quot;mb-1&quot;&gt;UET Mardan, Khyber Pakhtunkhwa&lt;/p&gt;
+            &lt;p class=&quot;mb-1&quot;&gt;Email: activities@uetmardan.edu.pk&lt;/p&gt;
+            &lt;small&gt;&amp;copy; 2026 UET Mardan Student Activities Portal&lt;/small&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+
+    &lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</code>
+
+</pre>
+</body>
+
+</html>
